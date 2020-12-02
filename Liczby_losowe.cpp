@@ -6,8 +6,8 @@ using namespace std;
 int main()
 {
 
-    random_device a;
-    mt19937 generujemy(a());
+    random_device b;
+    mt19937 generujemy(b());
     uniform_int_distribution<> zakres(1, 6);
 
     return zakres(generujemy);
