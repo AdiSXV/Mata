@@ -2,7 +2,7 @@ on: [push, pull_request]
 jobs:
   maanam:
     steps: 
-      - run: echo Hello World!
+      - run: echo Hello World
     runs-on: ${{matrix.platfirm}}    
     strategy:
       matrix: 
