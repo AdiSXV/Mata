@@ -9,6 +9,8 @@ int main()
     random_device b;
     mt19937 generujemy(b());
     uniform_int_distribution<> zakres(1, 6);
+    
+    cout<< zakres(generujemy) << endl;
 
-    return zakres(generujemy);
+    return 0;
 }
